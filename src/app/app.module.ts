@@ -13,8 +13,12 @@ import {
   MatToolbarModule,
   MatIconModule,
   MatSidenavModule,
-  MatListModule
+  MatListModule,
+  MatGridListModule,
+  MatRippleModule,
+  MatSlideToggleModule
 } from "@angular/material";
+import { MatGridListResponsiveModule } from "../lib/mat-grid-list-responsive/mat-grid-list-responsive.module";
 
 @NgModule({
   declarations: [AppComponent],
@@ -29,7 +33,11 @@ import {
     MatToolbarModule,
     MatIconModule,
     MatSidenavModule,
-    MatListModule
+    MatListModule,
+    MatGridListModule,
+    MatRippleModule,
+    MatSlideToggleModule,
+    MatGridListResponsiveModule
   ],
   //providers: [NewsApiService],
   bootstrap: [AppComponent]
